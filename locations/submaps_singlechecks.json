@@ -38,7 +38,7 @@
 {"name": "Cerulean City","sections": [{"name": "Bicycle Shop","ref": "Kanto/Cerulean City/Bicycle Shop"}],"map_locations": [{"map": "ceruleancity","x": 216,"y": 408}]},
 {"name": "Cerulean City​","sections": [{"name": "HI: Badge Guy's Backyard","ref": "Kanto/Cerulean City/HI: Badge Guy's Backyard"}],"map_locations": [{"map": "ceruleancity","x": 248,"y": 136}]},
 {"name": "Cerulean Gym","sections": [{"name": "Misty","ref": "Kanto/Cerulean City/Misty"}],"map_locations": [{"map": "ceruleangym","x": 72,"y": 40}]},
-{"name": "Cerulean City​​","sections": [{"name": "Rocket Thief","ref": "Kanto/Cerulean City/Rocket Thief"}],"map_locations": [{"map": "ceruleancity","x": 488,"y": 136}]},
+{"name": "Cerulean City​​","sections": [{"name": "Stolen Item","ref": "Kanto/Cerulean City/Stolen Item"}],"map_locations": [{"map": "ceruleancity","x": 488,"y": 136}]},
 {"name": "Cerulean Gym​","sections": [{"name": "Gym: Jr. Trainer F","ref": "Kanto/Cerulean City/Gym: Jr. Trainer F"}],"map_locations": [{"map": "ceruleangym","x": 40,"y": 56}]},
 {"name": "Cerulean Gym​​","sections": [{"name": "Gym: Swimmer","ref": "Kanto/Cerulean City/Gym: Swimmer"}],"map_locations": [{"map": "ceruleangym","x": 136,"y": 120}]},
 {"name": "Cinnabar Gym","sections": [{"name": "Gym: Burglar 1","ref": "Kanto/Cinnabar Island/Gym: Burglar 1"}],"map_locations": [{"map": "cinnabargym","x": 280,"y": 136}]},

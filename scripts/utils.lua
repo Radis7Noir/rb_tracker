@@ -121,12 +121,10 @@ function get_ap_locations()
 end
 
 function trainersanity_init(locations)
-    -- trainersanity checks have ids in the range 172000215-172000531
-    local start_index = 172000215
-    local end_index = 172000531
+    -- trainersanity checks have ids in the range 216-532 and 710-723
     local total = 0
-    
-    for i = start_index, end_index do
+
+    local function check(i)
         if locations[i] then
             Tracker:FindObjectForCode("trainer_" .. i).Active = true
             total = total + 1
@@ -134,10 +132,13 @@ function trainersanity_init(locations)
             Tracker:FindObjectForCode("trainer_" .. i).Active = false
         end
     end
-    
+
+    for i = 216, 532 do check(i) end
+    for i = 710, 723 do check(i) end
+
     if total == 0 then
         TRAINERS:setType("none")
-    elseif total == 317 then
+    elseif total == 331 then
         TRAINERS:setType("full")
     else
         TRAINERS:setType("partial")
@@ -150,7 +151,7 @@ function dexsanity_init(locations)
 	for i = 1, 151 do
     
         --check to see if the dexsanity location exists in the list of all checks
-		local dexID = i + 172000548
+		local dexID = i + 549
 		local check_exists = locations[dexID]
         local obj = Tracker:FindObjectForCode("dexsanity_".. i)
         

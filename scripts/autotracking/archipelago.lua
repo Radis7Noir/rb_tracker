@@ -17,6 +17,21 @@ function onClear(slot_data)
     CUR_INDEX = -1
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
+    GAME = Archipelago:GetPlayerGame(PLAYER_ID)
+
+    -- we check for correct game & version
+    if GAME ~= "Pokemon Red and Blue" then
+        Tracker:AddLayouts("layouts/not_rb.json")
+        return
+    end
+
+    -- V6 introduces this specific slot data entry 
+    if slot_data["gen_seed"] == nil then
+        Tracker:AddLayouts("layouts/versionmismatch.json")
+        return
+    end
+
+    Tracker:AddLayouts("layouts/tracker.json")
     
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do

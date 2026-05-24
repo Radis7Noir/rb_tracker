@@ -26,6 +26,8 @@ Tracker:AddItems("items/events.json")
 -- Maps
 Tracker:AddMaps("maps/maps.json")
 Tracker:AddMaps("maps/maps_boulder_vanilla.json")
+Tracker:AddMaps("maps/versionmismatch.json")
+Tracker:AddMaps("maps/not_rb.json")
    
 -- Locations
 Tracker:AddLocations("locations/locations.json")

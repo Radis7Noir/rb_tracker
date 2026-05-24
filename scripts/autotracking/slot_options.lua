@@ -16,7 +16,6 @@ STAGE_CODES = {
     town_map_fly_map = "tm_free_fly",
     randomize_pokedex = "opt_dex",
     prizesanity = "opt_prizesanity",
-    key_items_only = "opt_keyonly",
     poke_doll_skip = "opt_pokedoll_skip",
     bicycle_gate_skips = "opt_bike_skips",
     stonesanity = "opt_stonesanity",
@@ -42,7 +41,7 @@ IGNORED_CODES = {
     death_link = "",
     warp_tile_shuffle = "",
     door_shuffle = "",
-    
+
     -- Special handling for these
     old_man = "",
     elite_four_pokedex_condition = "",
@@ -50,7 +49,23 @@ IGNORED_CODES = {
     cerulean_cave_key_items_condition = "",
     extra_badges = "",
     blind_trainers = "",
-    trainersanity = ""
+    trainersanity = "",
+
+    -- New in PR #5158: generation seeds, UT support, cosmetic/YAML-only options
+    gen_seed = "",
+    region_seed = "",
+    rock_tunnel_seed = "",
+    autorun = "",
+    battle_animations = "",
+    archipelago_item_text = "",
+    battle_style = "",
+    text_speed = "",
+    split_exp = "",
+    randomize_map_music = "",
+    randomize_pokemon_locations = "",
+    randomize_wild_pokemon = "",
+    randomize_starter_pokemon = "",
+    randomize_static_pokemon = ""
 }
 
 FLAG_EVENT_CODES = {

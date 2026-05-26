@@ -1066,7 +1066,6 @@
                     },
                     {
                         "name": "Misty",
-                        "hosted_item": "misty_beaten",
                         "chest_unopened_img": "images/trainers/misty.png",
                         "chest_opened_img": "images/trainers/misty_done.png",
                         "item_count": 2,

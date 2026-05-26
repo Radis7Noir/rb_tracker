@@ -4628,7 +4628,7 @@
                         ]
                     },
                     {
-                        "name": "B4F Giovanni Item",
+                        "name": "B4F Giovanni Dropped Item",
                         "item_count": 1,
                         "access_rules": [
                             "liftkey",
@@ -7134,16 +7134,6 @@
                         "x": 112,
                         "y": 272
                     }
-                ]
-            },
-            {
-                "name": "Cerulean City-Outskirts",
-                "sections": [
-                ]
-            },
-            {
-                "name": "S.S. Anne 2F",
-                "sections": [
                 ]
             }
         ]

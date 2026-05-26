@@ -156,10 +156,15 @@
 {"name": "10F Scientist", "ref": "Kanto/Silph Co 7F - 11F/10F Scientist"},
 {"name": "11F Rocket 1", "ref": "Kanto/Silph Co 7F - 11F/11F Rocket 1"},
 {"name": "11F Rocket 2", "ref": "Kanto/Silph Co 7F - 11F/11F Rocket 2"},
+{"name": "11F Giovanni", "ref": "Kanto/Silph Co 7F - 11F/11F Giovanni"},
 {"name": "11F Liberate Silph Co (Event)", "ref": "Kanto/Silph Co 7F - 11F/11F Liberate Silph Co (Event)"},
 {"name": "11F Secretary", "ref": "Kanto/Silph Co 7F - 11F/11F Secretary"},
 {"name": "11F Silph Co President", "ref": "Kanto/Silph Co 7F - 11F/11F Silph Co President"}
 ], "map_locations": [{"map": "saffroncity", "x": 296, "y": 344}]},
+{"name": "Silph Co​","sections": [
+{"name": "11F Giovanni","ref": "Kanto/Silph Co 7F - 11F/11F Giovanni"},
+{"name": "11F Liberate Silph Co (Event)", "ref": "Kanto/Silph Co 7F - 11F/11F Liberate Silph Co (Event)"}
+],"map_locations": [{"map": "silphco11f","x": 112,"y": 216}]},
 {"name": "Cerulean Cave", "sections": [
 {"name": "1F Northeast Item", "ref": "Kanto/Cerulean Cave/1F Northeast Item"},
 {"name": "1F Northwest Item", "ref": "Kanto/Cerulean Cave/1F Northwest Item"},
@@ -177,7 +182,7 @@
 {"name": "Prize 2", "ref": "Kanto/Celadon City/Prize Corner 2"},
 {"name": "Prize 3", "ref": "Kanto/Celadon City/Prize Corner 3"}
 ], "map_locations": [{"map": "celadoncity", "x": 546, "y": 312}]},
-{"name": "Rocket Game Corner", "sections": [
+{"name": "Rocket Game Corner & Hideout", "sections": [
 {"name": "Center Gambler Gift", "ref": "Kanto/Celadon Game Corner/Center Gambler Gift"},
 {"name": "East Gambler Gift", "ref": "Kanto/Celadon Game Corner/East Gambler Gift"},
 {"name": "West Gambler Gift", "ref": "Kanto/Celadon Game Corner/West Gambler Gift"},
@@ -217,9 +222,14 @@
 {"name": "B4F Southwest Item", "ref": "Kanto/Rocket Hideout/B4F Southwest Item"},
 {"name": "B4F Rocket 2", "ref": "Kanto/Rocket Hideout/B4F Rocket 2"},
 {"name": "B4F Rocket 3", "ref": "Kanto/Rocket Hideout/B4F Rocket 3"},
-{"name": "B4F Giovanni Item", "ref": "Kanto/Rocket Hideout/B4F Giovanni Item"},
+{"name": "B4F Giovanni", "ref": "Kanto/Rocket Hideout/B4F Giovanni"},
+{"name": "B4F Giovanni Dropped Item", "ref": "Kanto/Rocket Hideout/B4F Giovanni Dropped Item"},
 {"name": "HI: B4F Behind Giovanni", "ref": "Kanto/Rocket Hideout/HI: B4F Behind Giovanni"}
 ], "map_locations": [{"map": "celadoncity", "x": 456, "y": 312}]},
+{"name": "Rocket Hideout","sections": [
+{"name": "B4F Giovanni","ref": "Kanto/Rocket Hideout/B4F Giovanni"},
+{"name": "B4F Giovanni Dropped Item","ref": "Kanto/Rocket Hideout/B4F Giovanni Dropped Item"}
+],"map_locations": [{"map": "rockethideoutb4f","x": 408,"y": 40}]},
 {"name": "Celadon Dept. Store", "sections": [
 {"name": "3F Counter Man", "ref": "Kanto/Celadon City/3F Dept Store Counter Man"},
 {"name": "Rooftop Thirsty Girl Lemonade", "ref": "Kanto/Celadon City/Rooftop Thirsty Girl Lemonade"},
@@ -265,7 +275,8 @@
 {"name": "1F Northwest Item", "ref": "Kanto/Mt Moon/1F Northwest Item"},
 {"name": "B2F Rocket 3", "ref": "Kanto/Mt Moon/B2F Rocket 3"},
 {"name": "B2F Rocket 4", "ref": "Kanto/Mt Moon/B2F Rocket 4"},
-{"name": "HI: B2F Dead End Before Fossils", "ref": "Kanto/Mt Moon/HI: B2F Dead End Before Fossils"}
+{"name": "HI: B2F Dead End Before Fossils", "ref": "Kanto/Mt Moon/HI: B2F Dead End Before Fossils"},
+{"name": "B2F Super Nerd", "ref": "Kanto/Mt Moon/B2F Super Nerd"}
 ], "map_locations": [{"map": "route4", "x": 296, "y": 88},
 {"map": "route4", "x": 392, "y": 88}]},
 {"name": "Rock Tunnel", "sections": [

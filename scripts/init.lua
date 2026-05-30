@@ -31,7 +31,7 @@ Tracker:AddMaps("maps/not_rb.json")
    
 -- Locations
 Tracker:AddLocations("locations/locations.json")
-Tracker:AddLocations("locations/encountertab.json")
+Tracker:AddLocations("locations/encountertab.jsonc")
 Tracker:AddLocations("locations/pokedex.json")
 Tracker:AddLocations("locations/submaps_singlechecks.json")
 Tracker:AddLocations("locations/submaps_groupchecks.json")
